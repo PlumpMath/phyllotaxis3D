@@ -128,7 +128,6 @@ function render(){
                          gui.params.curvature,
                          gui.params.curvature_border,
                          gui.params.leaf_inclination),
-        //geometries[gui.params.foliage_geometry],
         geometries[gui.params.trunk_geometry],
         material, radius);
     if (gui.params.zoetrope) {
